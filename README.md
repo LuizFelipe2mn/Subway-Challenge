@@ -31,20 +31,20 @@ CA,UNIT,SCP,STATION,LINENAME,DIVISION,DATE,TIME,DESC,ENTRIES,EXITS A002,R051,02-
 
 Importando funções auxiliares do arquivo fuctions.py para melhor organização e estruturação do codigo
 
-transform_time: Função recebe o dataframe e realiza as transformações temporais adicionando mes, ano, dia e realiza a transformação das datas
+**transform_time:** Função recebe o dataframe e realiza as transformações temporais adicionando mes, ano, dia e realiza a transformação das datas
 
-parallelize_dataframe: Função de multiprocessamento e parelelização das funções, auxilia na redução do tempo de execução
+**parallelize_dataframe:** Função de multiprocessamento e parelelização das funções, auxilia na redução do tempo de execução
 
-transform_data: Função recebe o dataframe e realiza tratamentos em algumas colunas e adiciona informações baseadas em datas (feriados, dias da semana, id_mes)
+**transform_data:** Função recebe o dataframe e realiza tratamentos em algumas colunas e adiciona informações baseadas em datas (feriados, dias da semana, id_mes)
 
-get_encoders: Função que realiza a transformação dos dados utilizando label encoder para transformar dados categoricos em numericos
+**get_encoders:** Função que realiza a transformação dos dados utilizando label encoder para transformar dados categoricos em numericos
 
-dummies_test: Função que gera dummy das colunas categoricas pré definidas
+**dummies_test:** Função que gera dummy das colunas categoricas pré definidas
 
-lag_features: Função que gera lag (visão passada) das utilizações do metro
+**lag_features:** Função que gera lag (visão passada) das utilizações do metro
 
-roll_mean_features: Função que gera uma janela de media olhando para ranges pre definidos
+**roll_mean_features:** Função que gera uma janela de media olhando para ranges pre definidos
 
-random_noise: Função que gera um valor aleatorio para servir de ruido para as funções
+**random_noise:** Função que gera um valor aleatorio para servir de ruido para as funções
 
-reduce_mem_usage: Função aplica a redução de memoria do dataframe realizando transformações nas colunas
+**reduce_mem_usage:** Função aplica a redução de memoria do dataframe realizando transformações nas colunas
